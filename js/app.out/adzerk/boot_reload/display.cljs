@@ -59,8 +59,7 @@
                        :position "fixed"
                        :left "0px"
                        :right "0px"
-                       :bottom "0px"
-                       :z-index "999999"]
+                       :bottom "0px"]
            :hide      [:opacity "0"
                        :bottom "-100px"]}]
     {:style (apply concat (map s types))}))

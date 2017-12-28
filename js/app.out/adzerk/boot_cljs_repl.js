@@ -1,16 +1,16 @@
-// Compiled by ClojureScript 1.7.228 {}
+// Compiled by ClojureScript 1.7.170 {}
 goog.provide('adzerk.boot_cljs_repl');
 goog.require('cljs.core');
 goog.require('weasel.repl');
-var repl_conn_9340 = "ws://localhost:59734";
-if(cljs.core.truth_((function (){var and__6443__auto__ = repl_conn_9340;
-if(cljs.core.truth_(and__6443__auto__)){
+var repl_conn_7675 = null;
+if(cljs.core.truth_((function (){var and__4974__auto__ = repl_conn_7675;
+if(cljs.core.truth_(and__4974__auto__)){
 return cljs.core.not.call(null,weasel.repl.alive_QMARK_.call(null));
 } else {
-return and__6443__auto__;
+return and__4974__auto__;
 }
 })())){
-weasel.repl.connect.call(null,"ws://localhost:59734");
+weasel.repl.connect.call(null,null);
 } else {
 }
 
